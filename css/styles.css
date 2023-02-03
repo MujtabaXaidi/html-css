@@ -9,23 +9,34 @@
 body{
     background: linear-gradient(45deg, rgb(225, 0, 255) , rgb(0, 255, 234));
     font-family: 'Raleway', sans-serif;
+    text-align: justify;
 }
 .service-image{
     height: 400px;
     width: 70%;
     background: steelblue;
     background-size: cover;
+    border: 2px solid rgb(255, 255, 255);
+
 }
 
 .link{
     text-decoration: none;
+    float: right;
 }
 
 .note-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
     text-decoration: underline;
 }
 
 #about-us-image{
     height: 300px;
     width: 60vw;
+    float: right;
+    margin: 25px;
+}
+.para-text{
+    margin-right: 25px;
 }
