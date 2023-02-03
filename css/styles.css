@@ -10,6 +10,7 @@ body{
     background: linear-gradient(45deg, rgb(225, 0, 255) , rgb(0, 255, 234));
     font-family: 'Raleway', sans-serif;
     text-align: justify;
+    color: #ffffff;
 }
 .service-image{
     height: 400px;
@@ -22,7 +23,7 @@ body{
 
 .link{
     text-decoration: none;
-    float: right;
+ 
 }
 
 .note-title{
@@ -39,4 +40,27 @@ body{
 }
 .para-text{
     margin-right: 25px;
+}
+li{
+    display: inline;
+}
+
+.nav-bar{
+    float:right;
+}
+
+.container{
+    background-color: #ffffff;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container-item{
+  background: #ff006a;
+  color:#ffffff;
+  font: 25px;
+  text-align: center;
+  width: 70px;
+  margin:10px;
 }
