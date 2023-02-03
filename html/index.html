@@ -23,7 +23,7 @@
     <p class="para-text">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at mollis diam, non molestie eros.
     </p>
-    <h2 class="subtitle">
+    <h2 class="subtitle" id="about-me">
         Here is an Image
     </h2>
     <img id="about-us-image" src="../images/flower-gae90d8db0_1920.jpg" alt="Humming bird" />
@@ -31,6 +31,18 @@
     <p class="para-text">
         <span class="note-title">Lorem:</span>&nbsp;&nbsp;ipsum dolor sit amet, consectetur adipiscing elit. Nam at
         mollis diam, non molestie eros. Vestibulum
+        ornare ligula eget nunc viverra, eget tristique velit pretium. Donec et nisl metus. Phasellus dignissim egestas
+        libero, ut laoreet est tempus quis. Proin orci neque, pretium at libero sed, tempor mollis nunc. Nullam
+        malesuada, est nec iaculis dapibus, ex libero auctor magna, nec finibus velit enim eget orci. Quisque finibus
+        euismod risus. Morbi nec ante condimentum, convallis neque eget, venenatis diam. Maecenas volutpat lobortis ex,
+        ac aliquam ex consectetur at. Aliquam nec malesuada arcu. Class aptent taciti sociosqu ad litora torquent per
+        conubia nostra, per inceptos himenaeos. Curabitur molestie dui non magna porta dignissim. Vestibulum
+        ornare ligula eget nunc viverra, eget tristique velit pretium. Donec et nisl metus. Phasellus dignissim egestas
+        libero, ut laoreet est tempus quis. Proin orci neque, pretium at libero sed, tempor mollis nunc. Nullam
+        malesuada, est nec iaculis dapibus, ex libero auctor magna, nec finibus velit enim eget orci. Quisque finibus
+        euismod risus. Morbi nec ante condimentum, convallis neque eget, venenatis diam. Maecenas volutpat lobortis ex,
+        ac aliquam ex consectetur at. Aliquam nec malesuada arcu. Class aptent taciti sociosqu ad litora torquent per
+        conubia nostra, per inceptos himenaeos. Curabitur molestie dui non magna porta dignissim.Vestibulum
         ornare ligula eget nunc viverra, eget tristique velit pretium. Donec et nisl metus. Phasellus dignissim egestas
         libero, ut laoreet est tempus quis. Proin orci neque, pretium at libero sed, tempor mollis nunc. Nullam
         malesuada, est nec iaculis dapibus, ex libero auctor magna, nec finibus velit enim eget orci. Quisque finibus
@@ -44,34 +56,31 @@
     <form>
         <input class="form-input" type="text" placeholder="Full Name" />
         <input class="form-input" type="email" placeholder="Email" />
-        <button>Hello</button>
-    </form>
+        <button class="button">Hello</button>
+    </form> 
     <div class="container">
         <div class="container-item" style="order: 1;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 100px;
-        ">A</div>
+        flex: 1 1 100px;
+        align-self: flex-start;">A</div>
         <div class="container-item" style="order: 5;
-        flex-grow: 1;
-        flex-shrink: 3;
-        flex-basis: 100px;
-        ">B</div>
+        flex: 5 1 300px">B</div>
         <div class="container-item" style="order: 4;
-        flex-grow: 1;
-        flex-shrink: 2;
-        flex-basis: 100px;
+        flex: 1 1 100px;
+        align-self: center;
         ">C</div>
         <div class="container-item" style="order: 2;
-        flex-grow: 5;
-        flex-shrink: 1;
-        flex-basis: 100px;
-        ">D</div>
+        flex: 1 1 100px">D</div>
         <div class="container-item" style="order: 3;
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 100px;
-        ">E</div>
+        flex: 1 1 100px;
+        align-self: flex-end;">E</div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item" style="background: rgb(217, 255, 0);">1</div>
+        <div class="grid-item" style="background: rgb(48, 219, 48);">2</div>
+        <div class="grid-item" style="background: rgb(23, 37, 238);">3</div>
+        <div class="grid-item" style="background: rgb(230, 192, 26);">4</div>
+        <div class="grid-item" style="background: rgb(226, 24, 24);">5</div>
     </div>
 
 </body>
