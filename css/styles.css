@@ -54,7 +54,9 @@ li{
     margin: 10px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
 }
 .container-item{
   background: #ff006a;

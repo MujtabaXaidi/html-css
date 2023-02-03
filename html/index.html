@@ -40,19 +40,39 @@
     </p>
 
     <img class="service-image" src="../images/flower-gae90d8db0_1920.jpg" alt="Humming bird" />
-   
+
     <form>
         <input class="form-input" type="text" placeholder="Full Name" />
         <input class="form-input" type="email" placeholder="Email" />
         <button>Hello</button>
     </form>
     <div class="container">
-        <div class="container-item">A</div>
-        <div class="container-item">B</div>
-        <div class="container-item">C</div>
-        <div class="container-item">D</div>
-        <div class="container-item">E</div>
-        
+        <div class="container-item" style="order: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100px;
+        ">A</div>
+        <div class="container-item" style="order: 5;
+        flex-grow: 1;
+        flex-shrink: 3;
+        flex-basis: 100px;
+        ">B</div>
+        <div class="container-item" style="order: 4;
+        flex-grow: 1;
+        flex-shrink: 2;
+        flex-basis: 100px;
+        ">C</div>
+        <div class="container-item" style="order: 2;
+        flex-grow: 5;
+        flex-shrink: 1;
+        flex-basis: 100px;
+        ">D</div>
+        <div class="container-item" style="order: 3;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100px;
+        ">E</div>
+    </div>
 
 </body>
 
